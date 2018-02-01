@@ -1,6 +1,6 @@
 ### **Data Ingestion/Python Engineer Assessment Test**
 
-Thank you for your interest in the platform developer role at SteelEye .
+Thank you for your interest in the Python Engineer role at SteelEye .
 
 We hope the test will not only test your abilities but also give you a little glimpse into some of the tasks we carry out. You are welcome to use any resources that would be available to you during the course of a normal day: e.g. Google is permitted, as are textbooks, however use of existing code libraries you have developed anywhere else would not be allowed. You may include code taken from the internet including JARs that are freely downloadable and have no restrictions on usage. In other words, they must be licensed for commercial use without restriction. You should clearly identify and attribute sources within your code to their appropriate ownership.
 
