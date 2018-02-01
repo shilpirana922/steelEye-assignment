@@ -8,11 +8,12 @@ One final word of warning - at a startup like SteelEye you will regularly gather
 
 And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it, make it simple, efficient, easy to maintain and easy for the user to use.
 
-**Introduction to the problem**
+**Brief**
 
 1) The requirement needs to be developed in Python 3
 2) Please provide github link for review.
 
+**Problem Statement**
 1) Download the xlsx from - https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.xls
 2) Store the xlsx
 3) Read the tab titled "MICs List by CC"
@@ -24,5 +25,4 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 1) Percentage of requirements satisfied
 2) How clean the code is - In particular simplicity, readability, naming, pep8 validation, test coverage and error handling.
 3) Bonus for using scrapinghub and boto3/aws
-
 
