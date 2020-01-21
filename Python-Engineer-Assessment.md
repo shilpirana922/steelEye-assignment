@@ -14,7 +14,7 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 2) Please provide github link for review.
 
 **Requirement:**
-1) Download the xml from [this link](https://eu-west-1.console.aws.amazon.com/cloudwatch/home?region=eu-west-1#logEventViewer:group=/se/prod-i3/tasks/platform-gen-txn-rpt-task;stream=platform-gen-txn-rpt-task/platform-gen-txn-rpt-task/98f5f14c-6002-47b8-a5a9-ecdbb36f3f37;start=2020-01-07T13:55:58Z)
+1) Download the xml from [this link](https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2020-01-08T00:00:00Z+TO+2020-01-08T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100)
 2) From the xml, please parse through to the first download link whose file_type is DLTINS and download the zip
 3) Extract the xml from the zip.
 4) Convert the contents of the xml into a CSV with the following header:
