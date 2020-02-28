@@ -1,6 +1,6 @@
 # Technical Test
 
-This task should demonstrate Infrastructure engineering skills, using all of the below:
+This task should demonstrate SRE skills, using all of the below:
 
 - AWS services
 - Infra as a Code(IAC) tools such as AWS Cloud Formation,Terraform etc.,
