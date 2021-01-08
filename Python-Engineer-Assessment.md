@@ -11,7 +11,8 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 **Brief:**
 
 1) The requirement needs to be developed in Python 3
-2) Please provide github link for review.
+2) Code should follow pep8 standards and should include pydoc, logging & unit tests
+3) Please provide github link for review.
 
 **Requirement:**
 1) Download the xml from [this link](https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2020-01-08T00:00:00Z+TO+2020-01-08T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100)
@@ -31,6 +32,6 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 **Assessment criteria:**
 
 1) Percentage of requirements satisfied
-2) How clean the code is - In particular simplicity, adhering to python code style conventions, test coverage and error handling.
+2) How clean the code is - In particular simplicity, adhering to python code style conventions, logs, test coverage and error handling.
 
 
