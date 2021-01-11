@@ -27,7 +27,7 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 * Issr
 
 5) Store the csv from step 4) in an AWS S3 bucket
-6) The above function should be run as an AWS Lambda
+6) The above function should be run as an AWS Lambda (Optional)
 
 **Assessment criteria:**
 
