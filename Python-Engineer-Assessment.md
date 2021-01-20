@@ -32,6 +32,10 @@ And one final tip: KISS – Keep It Short and Simple. Don’t overcomplicate it,
 **Assessment criteria:**
 
 1) Percentage of requirements satisfied
-2) How clean the code is - In particular simplicity, adhering to python code style conventions, logs, test coverage and error handling.
+2) How clean the code is - in particular simplicity, adhering to python code style conventions and error handling.
+3) Follows [PEP 8]( https://www.python.org/dev/peps/pep-0008) guidelines
+3) We expect pydoc for each class and function with optional type hints(nice to have)
+4) Follows standard logging (no print statements). Logs are essential part of troubleshooting application.
+5) Unit tests with good code coverage
 
 
