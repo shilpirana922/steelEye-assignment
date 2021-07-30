@@ -3,9 +3,9 @@
 ## Introduction
 
 Based on the code below answer the following queries:
-1. Explain what does the simple `List` component does.
-2. What problems / warnings is there with code?
-3. Please fix and optimize the component as much as you can think of considering best practices.
+1. Explain what the simple `List` component does.
+2. What problems / warnings are there with code?
+3. Please fix, optimize, and/or modify the component as much as you think is necessary.
 
 ## Code
 
