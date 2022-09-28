@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## 1.Explain what the simple `List` component does.
+    
+The List component iterates over the array of objects named as items. It renders the singleListElement component 
+for all the items of array and display the list items by passing the items object text. SingleListItem will maintain
+a boolean state selectedIndex and on clicking on any list item the background colore will get change. In list component the 
+WrappedListComponent.propTypes  defines the type of the props this component will receive.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 2.What problems / warnings are there with code?
 
-## Available Scripts
+a. setSelectedIndex(index) this is a boolean type so remove index which is an in integer.</br>
+b. incorrect syntax of setSelectedIndex and It was present in the wrong component List.</br> 
+    SingleListeItem component must have this state variable.</br>
+c. remove isSelected and update selectIndex.</br>
+d. Update handleClick function and update the selectedIndex with a boolean value</br>
+e. SingleListItem component must have a key prop while rendering inside List component without </br>
+   this it will show a warning on browser console.</br>
+f. Incorrect syntax of defining shape of proptype inside List component</br>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 3. Please fix, optimize, and/or modify the component as much as you think is necessary.
+   
+   Here, I am proving the fixed and modified code in this github repo.
